@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Goldady Task suite" preserve-order="true" parallel="false">
+	<test name="Google Automation"  enabled="true" preserve-order="true" >
+		<classes>
+		    <class name="tests.BasicPageValidationTest"/>
+		    <class name="tests.SearchFunctionalityValidationTest"/>
+		    <class name="tests.LogoValidationTest"/>
+			
+		</classes>
+	</test>
+</suite> 
